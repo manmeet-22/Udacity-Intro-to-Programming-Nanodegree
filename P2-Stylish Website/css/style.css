@@ -1,0 +1,96 @@
+* {
+  /*Set font to cursive*/
+    font-family: cursive;
+    margin: 20px;
+}
+
+body {
+  /*Set the body background*/
+   background-color: #003399;
+}
+
+h1 {
+  /*Set the alignment and background of each h1*/
+    text-align: center;
+    background: rgba(255,255,255,0.7);
+}
+
+h2 {
+    color: #000000
+    /*Set the text color of each h2*/
+}
+
+h3 {
+  /*Set the text color of each h3*/
+  color:#000000
+}
+
+span {
+  /*Set the css properties*/
+    font-weight: bold;
+}
+
+li {
+    /*Set list item margin 0*/
+    margin: 0px;
+}
+
+a {
+  /*Set the text color and margin of anchor tag*/
+    color:#003399;
+    margin: 0px;
+}
+
+p {
+  /*Set the text color all tghe content inside paragraph tag*/
+  color: #466289;
+}
+
+b {
+  /*Set al bold tag margin 0*/
+  margin: 0px;
+}
+.contents_table {
+  /*Section that contains all the li that contains the index*/
+    background: rgba(225,225,255,0.7);
+    padding: 5px;
+}
+
+.lesson {
+  /*Allows the lesson content to be positioned side by side with the lesson title*/
+    display: flex;
+    background: rgba(225,225,255,0.4);
+}
+
+.lesson-heading {
+    background: rgba(225,225,255,0.7);
+    padding: 5px;
+    min-width: 150px;
+    font-weight: bold;
+    text-align: center;
+    font-size: 150%;
+    width: 150px;
+    vertical-align: middle;
+}
+
+.lesson-content {
+  /*Set the background and the width of the container to 100%*/
+    background: rgba(225,225,255,0.55);
+    width: 100%;
+    margin-left: 0px;
+}
+    .con {
+      /*Sets the background color*/
+      background: rgba(225,225,255,0.4);
+}
+
+.con-heading {
+  /*Sets the text color*/
+    margin-left:0px;
+    color: #FF0C2C;
+}
+
+.con-desc {
+    /*Sets the padding from bottom*/
+    padding-bottom: 6px;
+}
